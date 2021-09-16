@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "RTC DS3231"
+Date "2021-09-14"
+Rev "Version 1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer_RTC:DS3231M U?
+U 1 1 6141F205
+P 5250 3200
+F 0 "U?" H 5250 2711 50  0000 C CNN
+F 1 "DS3231M" H 5250 2620 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 5250 2600 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 5520 3250 50  0001 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:AT24CS32-SSHM U?
+U 1 1 61421323
+P 7000 2550
+F 0 "U?" H 7000 3031 50  0000 C CNN
+F 1 "AT24CS32-SSHM" H 7000 2940 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7000 2550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf" H 7000 2550 50  0001 C CNN
+	1    7000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61422553
+P 7350 2950
+F 0 "#PWR?" H 7350 2700 50  0001 C CNN
+F 1 "GND" H 7355 2777 50  0000 C CNN
+F 2 "" H 7350 2950 50  0001 C CNN
+F 3 "" H 7350 2950 50  0001 C CNN
+	1    7350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 61423193
+P 5500 2450
+F 0 "BT?" H 5618 2546 50  0000 L CNN
+F 1 "Battery_Cell" H 5618 2455 50  0000 L CNN
+F 2 "" V 5500 2510 50  0001 C CNN
+F 3 "~" V 5500 2510 50  0001 C CNN
+	1    5500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network04_US RN?
+U 1 1 61424D19
+P 5800 1850
+F 0 "RN?" H 5988 1896 50  0000 L CNN
+F 1 "R_Network04_US" H 5988 1805 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 6075 1850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 1850 50  0001 C CNN
+	1    5800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 614278A7
+P 4150 2250
+F 0 "J?" H 4258 2631 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 4258 2540 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4150 2250 50  0001 C CNN
+F 3 "~" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 6142925B
+P 7700 2100
+F 0 "J?" H 7808 2381 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7808 2290 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7700 2100 50  0001 C CNN
+F 3 "~" H 7700 2100 50  0001 C CNN
+	1    7700 2100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
