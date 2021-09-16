@@ -1,9 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Matias Meghinasso
+* Título corto del trabajo:  Réplica RTC DS3231
+* Descripción:  Diseño esquematico en KICAD del circuito RTC DS3231 con memoria EEPROM incorporada.
 
 
 ## Licencia de este trabajo ##
