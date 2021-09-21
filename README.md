@@ -2,15 +2,12 @@
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
 * Autor: Matias Meghinasso
-* Título corto del trabajo:  Réplica RTC DS3231
+* Título corto del trabajo:  Réplica Módulo RTC DS3231
 * Descripción:  Diseño esquematico en KICAD del circuito RTC DS3231 con memoria EEPROM incorporada.
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+GPL V3.0
 
 ## Estructura del TP FINAL ##
 
