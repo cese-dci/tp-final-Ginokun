@@ -592,34 +592,34 @@ Text Notes 3650 3750 0    50   ~ 0
 $Comp
 L Mechanical:Fiducial FID103
 U 1 1 61580870
-P 9800 1850
-F 0 "FID103" H 9885 1896 50  0000 L CNN
-F 1 "Fiducial" H 9885 1805 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1.5mm_Mask3mm" H 9800 1850 50  0001 C CNN
-F 3 "~" H 9800 1850 50  0001 C CNN
-	1    9800 1850
+P 2950 1950
+F 0 "FID103" H 3035 1996 50  0000 L CNN
+F 1 "Fiducial" H 3035 1905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2950 1950 50  0001 C CNN
+F 3 "~" H 2950 1950 50  0001 C CNN
+	1    2950 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID102
 U 1 1 61580E6C
-P 9800 1650
-F 0 "FID102" H 9885 1696 50  0000 L CNN
-F 1 "Fiducial" H 9885 1605 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1.5mm_Mask3mm" H 9800 1650 50  0001 C CNN
-F 3 "~" H 9800 1650 50  0001 C CNN
-	1    9800 1650
+P 2950 1750
+F 0 "FID102" H 3035 1796 50  0000 L CNN
+F 1 "Fiducial" H 3035 1705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2950 1750 50  0001 C CNN
+F 3 "~" H 2950 1750 50  0001 C CNN
+	1    2950 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID101
 U 1 1 615818A5
-P 9800 1450
-F 0 "FID101" H 9885 1496 50  0000 L CNN
-F 1 "Fiducial" H 9885 1405 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1.5mm_Mask3mm" H 9800 1450 50  0001 C CNN
-F 3 "~" H 9800 1450 50  0001 C CNN
-	1    9800 1450
+P 2950 1550
+F 0 "FID101" H 3035 1596 50  0000 L CNN
+F 1 "Fiducial" H 3035 1505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2950 1550 50  0001 C CNN
+F 3 "~" H 2950 1550 50  0001 C CNN
+	1    2950 1550
 	1    0    0    -1  
 $EndComp
 Text Label 8450 2950 0    50   ~ 0
@@ -661,4 +661,57 @@ Wire Wire Line
 	8200 2200 8200 2550
 Wire Wire Line
 	8100 2200 8100 2650
+Wire Notes Line
+	3450 2050 3450 1400
+Wire Notes Line
+	3450 1400 2850 1400
+Wire Notes Line
+	2850 1400 2850 2050
+Wire Notes Line
+	2850 2050 3450 2050
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 615F5205
+P 3800 1500
+F 0 "H101" H 3900 1546 50  0000 L CNN
+F 1 "MountingHole" H 3900 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_TopOnly" H 3800 1500 50  0001 C CNN
+F 3 "~" H 3800 1500 50  0001 C CNN
+	1    3800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 615F579C
+P 3800 1700
+F 0 "H102" H 3900 1746 50  0000 L CNN
+F 1 "MountingHole" H 3900 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_TopOnly" H 3800 1700 50  0001 C CNN
+F 3 "~" H 3800 1700 50  0001 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 615F5958
+P 3800 1950
+F 0 "H103" H 3900 1996 50  0000 L CNN
+F 1 "MountingHole" H 3900 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_TopOnly" H 3800 1950 50  0001 C CNN
+F 3 "~" H 3800 1950 50  0001 C CNN
+	1    3800 1950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3650 1350 4500 1350
+Wire Notes Line
+	4500 1350 4500 2100
+Wire Notes Line
+	4500 2100 3650 2100
+Wire Notes Line
+	3650 2100 3650 1350
+Text Notes 2850 1350 0    50   ~ 0
+Fiducials
+Text Notes 3650 1300 0    50   ~ 0
+Mounting Holes
 $EndSCHEMATC
