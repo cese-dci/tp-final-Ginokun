@@ -284,8 +284,6 @@ Wire Wire Line
 Text Label 8450 2850 0    50   ~ 0
 SDA
 Wire Wire Line
-	8200 2200 8200 2350
-Wire Wire Line
 	8200 2550 9050 2550
 Text Label 8450 2550 0    50   ~ 0
 32KHZ
@@ -345,8 +343,6 @@ F 3 "~" H 9250 4800 50  0001 C CNN
 	1    9250 4800
 	-1   0    0    -1  
 $EndComp
-Text Label 6100 3050 0    50   ~ 0
-SQW
 Wire Wire Line
 	7400 4800 7900 4800
 Wire Wire Line
@@ -369,8 +365,6 @@ Text Label 8500 4800 0    50   ~ 0
 SDA
 Wire Wire Line
 	6600 1600 6850 1600
-Wire Wire Line
-	6350 3050 6100 3050
 Wire Wire Line
 	8650 4900 9050 4900
 $Comp
@@ -601,7 +595,7 @@ U 1 1 61580870
 P 9800 1850
 F 0 "FID103" H 9885 1896 50  0000 L CNN
 F 1 "Fiducial" H 9885 1805 50  0000 L CNN
-F 2 "" H 9800 1850 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1.5mm_Mask3mm" H 9800 1850 50  0001 C CNN
 F 3 "~" H 9800 1850 50  0001 C CNN
 	1    9800 1850
 	1    0    0    -1  
@@ -612,7 +606,7 @@ U 1 1 61580E6C
 P 9800 1650
 F 0 "FID102" H 9885 1696 50  0000 L CNN
 F 1 "Fiducial" H 9885 1605 50  0000 L CNN
-F 2 "" H 9800 1650 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1.5mm_Mask3mm" H 9800 1650 50  0001 C CNN
 F 3 "~" H 9800 1650 50  0001 C CNN
 	1    9800 1650
 	1    0    0    -1  
@@ -623,31 +617,11 @@ U 1 1 615818A5
 P 9800 1450
 F 0 "FID101" H 9885 1496 50  0000 L CNN
 F 1 "Fiducial" H 9885 1405 50  0000 L CNN
-F 2 "" H 9800 1450 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1.5mm_Mask3mm" H 9800 1450 50  0001 C CNN
 F 3 "~" H 9800 1450 50  0001 C CNN
 	1    9800 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 2750 5950 2350
-Wire Wire Line
-	5950 2350 8200 2350
-Connection ~ 8200 2350
-Wire Wire Line
-	8200 2350 8200 2550
-Text Label 6100 2750 0    50   ~ 0
-32KHZ
-Wire Wire Line
-	8100 2200 8100 2450
-Wire Wire Line
-	6100 2450 8100 2450
-Connection ~ 8100 2450
-Wire Wire Line
-	8100 2450 8100 2650
-Wire Wire Line
-	5950 2750 6100 2750
-Wire Wire Line
-	6100 2450 6100 2750
 Text Label 8450 2950 0    50   ~ 0
 VCC
 Connection ~ 8400 3050
@@ -675,9 +649,16 @@ Wire Wire Line
 Connection ~ 4850 5000
 Wire Wire Line
 	4850 5000 4850 5250
-Connection ~ 6100 2750
 Wire Wire Line
 	6100 2750 6350 2750
 Wire Wire Line
-	6100 2750 6100 3050
+	6350 3050 6100 3050
+Text Label 6100 3050 0    50   ~ 0
+SQW
+Text Label 6100 2750 0    50   ~ 0
+32KHZ
+Wire Wire Line
+	8200 2200 8200 2550
+Wire Wire Line
+	8100 2200 8100 2650
 $EndSCHEMATC
