@@ -116,7 +116,7 @@ U 1 1 6142E269
 P 5000 4650
 F 0 "JP101" H 5000 4835 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 5000 4744 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 5000 4650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5000 4650 50  0001 C CNN
 F 3 "~" H 5000 4650 50  0001 C CNN
 	1    5000 4650
 	1    0    0    -1  
@@ -127,7 +127,7 @@ U 1 1 6142EB82
 P 5000 4950
 F 0 "JP102" H 5000 5135 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 5000 5044 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 5000 4950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5000 4950 50  0001 C CNN
 F 3 "~" H 5000 4950 50  0001 C CNN
 	1    5000 4950
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 6142EF02
 P 5000 5200
 F 0 "JP103" H 5000 5385 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 5000 5294 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 5000 5200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5000 5200 50  0001 C CNN
 F 3 "~" H 5000 5200 50  0001 C CNN
 	1    5000 5200
 	1    0    0    -1  
@@ -565,21 +565,21 @@ Wire Wire Line
 Wire Notes Line
 	5550 3400 8500 3400
 Wire Notes Line
-	8500 3400 8500 1650
+	8500 3400 8500 1600
 Wire Notes Line
-	8500 1650 5550 1650
+	8500 1600 5550 1600
 Wire Notes Line
-	5550 1650 5550 3400
+	5550 1600 5550 3400
 Text Notes 7950 1600 0    50   ~ 0
 DS3231 RTC 
 Wire Notes Line
-	4750 4050 8750 4050
+	4750 4000 8750 4000
 Wire Notes Line
-	8750 4050 8750 5350
+	8750 4000 8750 5350
 Wire Notes Line
 	8750 5350 4750 5350
 Wire Notes Line
-	4750 5350 4750 4050
+	4750 5350 4750 4000
 Text Notes 7950 4000 0    50   ~ 0
 AT24CS32 EEPROM 
 Wire Notes Line
