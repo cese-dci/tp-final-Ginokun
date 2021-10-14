@@ -1,0 +1,179 @@
+Cmp-Mod V01 Created by PcbNew   date = 14-Oct-21 10:14:15 AM
+
+BeginCmp
+TimeStamp = 6164C25D
+Path = /6142925B
+Reference = J102;
+ValeurCmp = Conn_01x04_Male;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 616581D0
+Path = /61423193
+Reference = BT101;
+ValeurCmp = Battery_Cell;
+IdModule  = Battery:BatteryHolder_Keystone_1058_1x2032;
+EndCmp
+
+BeginCmp
+TimeStamp = 61659B0E
+Path = /61424D19
+Reference = RN102;
+ValeurCmp = 4.7K;
+IdModule  = Resistor_SMD:R_Array_Concave_4x0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C2A2
+Path = /6142EF02
+Reference = JP103;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C28B
+Path = /6142EB82
+Reference = JP102;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 61672F71
+Path = /6142E269
+Reference = JP101;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 61672E86
+Path = /6149DE54
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0805_2012Metric_Castellated;
+EndCmp
+
+BeginCmp
+TimeStamp = 616614B9
+Path = /61564D51
+Reference = C101;
+ValeurCmp = 0.1 uF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 61661489
+Path = /615648EE
+Reference = C102;
+ValeurCmp = 1 uF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C1F8
+Path = /614A1340
+Reference = D102;
+ValeurCmp = Diode;
+IdModule  = Diode_SMD:D_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 616723A6
+Path = /615818A5
+Reference = FID101;
+ValeurCmp = Fiducial;
+IdModule  = Fiducial:Fiducial_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C208
+Path = /61580E6C
+Reference = FID102;
+ValeurCmp = Fiducial;
+IdModule  = Fiducial:Fiducial_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164F1D3
+Path = /61580870
+Reference = FID103;
+ValeurCmp = Fiducial;
+IdModule  = Fiducial:Fiducial_0.5mm_Mask1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 61672547
+Path = /615F5205
+Reference = H101;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.5mm_Pad_TopOnly;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C222
+Path = /615F579C
+Reference = H102;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.5mm_Pad_TopOnly;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164D088
+Path = /615F5958
+Reference = H103;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_2.5mm_Pad_TopOnly;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C245
+Path = /614278A7
+Reference = J101;
+ValeurCmp = Conn_01x06_Male;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61661459
+Path = /6149D884
+Reference = R101;
+ValeurCmp = 1k;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C2C4
+Path = /614A223B
+Reference = R102;
+ValeurCmp = 200;
+IdModule  = Resistor_SMD:R_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 616724BE
+Path = /614AB9B7
+Reference = RN101;
+ValeurCmp = 4.7K;
+IdModule  = Resistor_SMD:R_Array_Concave_4x0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 61661F4F
+Path = /6141F205
+Reference = U101;
+ValeurCmp = DS3231M;
+IdModule  = Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6164C333
+Path = /61421323
+Reference = U102;
+ValeurCmp = AT24CS32;
+IdModule  = Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;
+EndCmp
+
+EndListe
